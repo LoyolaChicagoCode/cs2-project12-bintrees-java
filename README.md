@@ -1,7 +1,5 @@
 # Loyola COMP 271 Lab 10 *(FALL 2018)*
 
-Under construction until further notice.
-
 # Individual project
 
 Collaborate with your classmates on a conceptual level but do not share code.
