@@ -125,8 +125,9 @@ You can do this interactively using the JShell that comes with Java 10, or you c
 1. *Question:* Could we use a stack instead of explicit recursion to implement these methods?
 
 1. Finally, define a method for replacing a tree in-place with its mirror image. 
-To achieve this, swap the roles of the left and right child references at every node.
-For example, the tree
+   To achieve this, swap the roles of the left and right child references at every node.
+
+   For example, the tree
 
            4 
           / \ 
@@ -134,7 +135,7 @@ For example, the tree
         / \ 
        1   3
 
- becomes
+   becomes
  
           4 
          / \ 
