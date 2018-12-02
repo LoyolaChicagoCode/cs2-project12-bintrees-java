@@ -90,6 +90,8 @@ You can do this interactively using the JShell that comes with Java 10, or you c
 
    *Hint:* To define this and any of the following methods, use recursion as you see fit.
 
+   *Be sure to handle special cases correctly, such as empty trees and leaves.*
+
 1. Given a binary tree, compute its *height*, i.e., the number of nodes along the longest path from the root node down to the farthest leaf node. The height of the empty tree is 0, the height of a leaf is 1, and the height of the tree defined above is 4.
 
        <E> int height(final BTNode<E> root) { ... }
@@ -105,8 +107,6 @@ You can do this interactively using the JShell that comes with Java 10, or you c
    1. print the nodes in the right subtree
 
    For example, for the tree above, your method should print `4 2 5 1 8 6 3 7`.
-
-   Be sure to handle special cases correctly, such as empty trees and leaves.
 
 1. Now define a method for printing the data values in a tree in the following order ("postorder"):
 
