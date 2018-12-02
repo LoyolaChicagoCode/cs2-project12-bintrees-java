@@ -62,21 +62,21 @@ You will do this interactively using the JShell that comes with Java 10.
 
 1. Create an empty binary tree, represented as null:
 
-  BTNode<Integer> empty = null
+       BTNode<Integer> empty = null
 
 1. Create a leaf:
 
-  BTNode<Integer> leaf = new BTNode<>(9)
+       BTNode<Integer> leaf = new BTNode<>(9)
 
 1. Create the following binary tree. Use as many statements as you want to build up the tree successively.
 
-            1
-          /   \
-        2       3
-       / \     / \
-      4   5   6   7
-             /
-            8
+             1
+           /   \
+         2       3
+        / \     / \
+       4   5   6   7
+              /
+             8
 
 
 1. Now create the same tree using a single statement involving nested constructor invocations.
