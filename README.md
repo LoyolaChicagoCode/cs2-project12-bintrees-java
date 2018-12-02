@@ -123,6 +123,8 @@ You can do this interactively using the JShell that comes with Java 10, or you c
 1. Finally, define a method for replacing a tree in-place with its mirror image. 
    To achieve this, swap the roles of the left and right child references at every node.
 
+       <E> void mirror(final BTNode<E> root) { ... }
+
    For example, the tree
 
            4 
