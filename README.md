@@ -21,7 +21,7 @@ An understanding of the following concepts and techniques:
 # Instructions
 
 In this lab, you will have the opportunity to look "under the hood" of linked lists by creating and manipulating nodes.
-You will do this interactively using the JShell that comes with Java 10.
+You can do this interactively using the JShell that comes with Java 10, or you can define a full-fledged Java/Maven project.
 
 1. Start the JShell like so:
 
@@ -80,26 +80,19 @@ You will do this interactively using the JShell that comes with Java 10.
               /
              8
 
-
 1. Now create the same tree using a single statement involving nested constructor invocations.
 
 1. *Question:* Which way to create the tree more clearly conveys the actual structure of the tree?
 
-Hint: Use recursion as you see fit.
-
-1. Define a method for counting the number of nodes in a binary tree:
+1. Define a method for counting the number of nodes in a binary tree. (For an empty tree, the result is 0.)
 
        <E> int size(final BTNode<E> root) { ... }
 
-2. size()
-This problem demonstrates simple binary tree traversal. Given a binary tree, count the number of nodes in the tree.
-int size(struct node* node) { 
- 
+   *Hint:* To define this and any of the following methods, use recursion as you see fit.
 
-3. maxDepth()
-Given a binary tree, compute its "maxDepth" -- the number of nodes along the longest path from the root node down to the farthest leaf node. The maxDepth of the empty tree is 0, the maxDepth of the tree on the first page is 3.
-int maxDepth(struct node* node) { 
+1. Given a binary tree, compute its *height*, i.e., the number of nodes along the longest path from the root node down to the farthest leaf node. The height of the empty tree is 0, the height of a leaf is 1, and the height of the tree defined above is 4.
 
+       <E> int height(final BTNode<E> root) { ... }
 
 1. Define a method for printing the data values in a tree in the following order ("inorder"): 
 
@@ -119,7 +112,7 @@ int maxDepth(struct node* node) {
 
        <E> void printTreeInorder(final BTNode<E> root) { ... }
 
-1. print the root node
+   1. print the root node
    
    1. print the nodes in the left subtree
    
@@ -130,6 +123,8 @@ int maxDepth(struct node* node) {
 1. *Question:* Are either of these methods tail-recursive?
 
 1. *Question:* Could we use a stack instead of explicit recursion to implement these methods?
+
+
 
 
 
