@@ -120,10 +120,6 @@ You can do this interactively using the JShell that comes with Java 10, or you c
 
    For example, for the tree above, your method should print `4 5 2 8 6 7 3 1`.
   
-1. *Question:* Are either of these methods tail-recursive?
-
-1. *Question:* Could we use a stack instead of explicit recursion to implement these methods?
-
 1. Finally, define a method for replacing a tree in-place with its mirror image. 
    To achieve this, swap the roles of the left and right child references at every node.
 
@@ -143,7 +139,11 @@ You can do this interactively using the JShell that comes with Java 10, or you c
            / \ 
           3   1
 
+1. *Question:* Are any of these methods tail-recursive?
 
+1. *Question:* Could we use a stack instead of explicit recursion to implement these methods?
+
+1. *Question:* Conceptually speaking, how would you implement an iterator for a tree, which would provide `hasNext` and `next` methods to produce the data values in the trees in, say, inorder?
 
 # Deliverables and submission
 
