@@ -143,7 +143,7 @@ You can do this interactively using the JShell that comes with Java 10, or you c
 
 1. *Question:* Could we use a stack instead of explicit recursion to implement these methods?
 
-1. *Question:* Conceptually speaking, how would you implement an iterator for a tree, which would provide `hasNext` and `next` methods to produce the data values in the trees in, say, inorder?
+1. *Question:* Conceptually speaking, how would you implement an iterator for a tree, which would provide `hasNext` and `next` methods to produce the data values in the trees one after the other in, say, inorder?
 
 # Deliverables and submission
 
