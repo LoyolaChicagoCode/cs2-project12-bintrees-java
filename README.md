@@ -87,11 +87,11 @@ You will do this interactively using the JShell that comes with Java 10.
 
 1. Define a method for printing the data values in a tree in the following order ("inorder"): 
 
-   a. print the nodes in the left subtree
+   1. print the nodes in the left subtree
    
-   b. print the root node
+   1. print the root node
    
-   c. print the nodes in the right subtree
+   1. print the nodes in the right subtree
 
    For example, for the tree above, your method should print
    
@@ -105,21 +105,22 @@ You will do this interactively using the JShell that comes with Java 10.
    
 1. Now define a method for printing the data values in a tree in the following order ("postorder"):
 
-   b. print the root node
+   1. print the root node
    
-   a. print the nodes in the left subtree
+   1. print the nodes in the left subtree
    
-   c. print the nodes in the right subtree
+   1. print the nodes in the right subtree
 
    For example, for the tree above, your method should print
    
-       4 2 5 1 8 6 3 7
+       4 5 2 8 6 7 3 1
 
-   Be sure to handle special cases correctly, such as empty trees and leaves.
+1. *Question:* Are either of these methods tail-recursive?
 
-       <E> void printTree(BTNode<E> root) { ... }
-  
-   Hint: Use recursion as you see fit.
+1. *Question:* Could we use a stack instead of explicit recursion to implement these methods?
+
+
+
 
 
 # Deliverables and submission
