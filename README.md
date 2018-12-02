@@ -158,7 +158,7 @@ Please submit the following deliverables:
 
 - 3 JShell history (`jshell> /save -history myhistory.jsh`) showing the steps described above (it's OK if errors are included)
 - 1 written part
-  - 0.2 for each of the four questions
+  - 0.8 for the five questions
   - 0.2 grammar and style
 - 1 submission of both deliverables as part of a single secret [gist](https://gist.github.com/)
   - go to http://gist.github.com and create a new gist by clicking the corresponding button in the top right corner
