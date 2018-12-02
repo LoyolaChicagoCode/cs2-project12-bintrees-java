@@ -59,6 +59,8 @@ You will do this interactively using the JShell that comes with Java 10.
        
    Hint: If you make a mistake in a class or method definition, don't worry. 
    You can just reenter it to replace the erroneous or incomplete definition.
+   
+1. *Question:* In the `toString` method, why are we using `StringBuilder` instead of the `+` operator?
 
 1. Create an empty binary tree, represented as null:
 
@@ -83,13 +85,21 @@ You will do this interactively using the JShell that comes with Java 10.
 
 1. *Question:* Which way to create the tree more clearly conveys the actual structure of the tree?
 
-1. Define a method for printing the items in a linked list, starting with the head (first) node:
+1. Define a method for printing the data values in a tree in the following order: 
 
-       <E> void printNode(Node<E> curr) { ... }
-  
-   Hint: Iterate through the list until `curr` becomes `null`.
+   a. print the nodes in the left subtree
+   b. print the root node
+   c. print the nodes in the right subtree
+
+   For example, for the tree above, your method should print
    
-   Hint: In case your method invocation (or any other code) goes into an infinite loop, you can interrupt execution by pressing Control-c.
+       4 2 5 1 8 6 3 7
+
+   Be sure to handle special cases correctly, such as empty trees and leaves.
+
+       <E> void printTree(BTNode<E> root) { ... }
+  
+   Hint: Use recursion as you see fit.
    
 1. Remove the node containing `"what"` from your list above. 
 Use `printNode` to verify that the node is gone from the list.
