@@ -88,7 +88,9 @@ You will do this interactively using the JShell that comes with Java 10.
 1. Define a method for printing the data values in a tree in the following order ("inorder"): 
 
    a. print the nodes in the left subtree
+   
    b. print the root node
+   
    c. print the nodes in the right subtree
 
    For example, for the tree above, your method should print
