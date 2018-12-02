@@ -85,7 +85,7 @@ You will do this interactively using the JShell that comes with Java 10.
 
 1. *Question:* Which way to create the tree more clearly conveys the actual structure of the tree?
 
-1. Define a method for printing the data values in a tree in the following order: 
+1. Define a method for printing the data values in a tree in the following order ("inorder"): 
 
    a. print the nodes in the left subtree
    b. print the root node
@@ -101,30 +101,22 @@ You will do this interactively using the JShell that comes with Java 10.
   
    Hint: Use recursion as you see fit.
    
-1. Remove the node containing `"what"` from your list above. 
-Use `printNode` to verify that the node is gone from the list.
+1. Now define a method for printing the data values in a tree in the following order ("postorder"):
 
-1. Add the node containing `"what"` back but at the very end of the list. 
-Use `printNode` to verify that the node is now in the correct position.
+   b. print the root node
+   a. print the nodes in the left subtree
+   c. print the nodes in the right subtree
 
-1. Now create a circular list by making the successor of the list refer back to the head of the list.
+   For example, for the tree above, your method should print
+   
+       4 2 5 1 8 6 3 7
 
-1. *Question:* What happens if you use the `printNode` method on this circular list?
+   Be sure to handle special cases correctly, such as empty trees and leaves.
 
-1. Define an enhanced `printNodeCycle` that works like `printNode` but stops the iteration when it detects a cycle in the list.
+       <E> void printTree(BTNode<E> root) { ... }
+  
+   Hint: Use recursion as you see fit.
 
-1. Invoke `printNodeCycle` on your circular list.
-
-1. *Question:* How would you describe the shape of any noncyclical structure you can build using the `Node` class? 
-Furthermore, can you build structures with branches that look like trees, where a node can have more than one successor or neighbor?
-
-1. Write the equivalent of `printNode` using an `Iterator` over a `java.util.LinkedList`?
-
-       final List<String> myList = new LinkedList<>(Arrays.asList("hello", "<YOUR NAME>", "what", "up"));
-       final Iterator i = myList.iterator();
-       // TODO while loop using i.hasNext() and i.next()
-
-1. *Question:* Would the same code work for an `ArrayList`?
 
 # Deliverables and submission
 
