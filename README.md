@@ -85,7 +85,25 @@ You will do this interactively using the JShell that comes with Java 10.
 
 1. *Question:* Which way to create the tree more clearly conveys the actual structure of the tree?
 
+Hint: Use recursion as you see fit.
+
+1. Define a method for counting the number of nodes in a binary tree:
+
+       <E> int size(final BTNode<E> root) { ... }
+
+2. size()
+This problem demonstrates simple binary tree traversal. Given a binary tree, count the number of nodes in the tree.
+int size(struct node* node) { 
+ 
+
+3. maxDepth()
+Given a binary tree, compute its "maxDepth" -- the number of nodes along the longest path from the root node down to the farthest leaf node. The maxDepth of the empty tree is 0, the maxDepth of the tree on the first page is 3.
+int maxDepth(struct node* node) { 
+
+
 1. Define a method for printing the data values in a tree in the following order ("inorder"): 
+
+       <E> void printTree(final BTNode<E> root) { ... }  
 
    1. print the nodes in the left subtree
    
@@ -93,28 +111,22 @@ You will do this interactively using the JShell that comes with Java 10.
    
    1. print the nodes in the right subtree
 
-   For example, for the tree above, your method should print
-   
-       4 2 5 1 8 6 3 7
+   For example, for the tree above, your method should print `4 2 5 1 8 6 3 7`.
 
    Be sure to handle special cases correctly, such as empty trees and leaves.
 
-       <E> void printTree(BTNode<E> root) { ... }
-  
-   Hint: Use recursion as you see fit.
-   
 1. Now define a method for printing the data values in a tree in the following order ("postorder"):
 
-   1. print the root node
+       <E> void printTreeInorder(final BTNode<E> root) { ... }
+
+1. print the root node
    
    1. print the nodes in the left subtree
    
    1. print the nodes in the right subtree
 
-   For example, for the tree above, your method should print
-   
-       4 5 2 8 6 7 3 1
-
+   For example, for the tree above, your method should print `4 5 2 8 6 7 3 1`.
+  
 1. *Question:* Are either of these methods tail-recursive?
 
 1. *Question:* Could we use a stack instead of explicit recursion to implement these methods?
