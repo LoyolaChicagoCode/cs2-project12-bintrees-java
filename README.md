@@ -108,7 +108,7 @@ You can do this interactively using the JShell that comes with Java 10, or you c
 
 1. Now define a method for printing the data values in a tree in the following order ("postorder"):
 
-       <E> void printTreeInorder(final BTNode<E> root) { ... }
+       <E> void printTreePostorder(final BTNode<E> root) { ... }
 
    1. print the root node
    
