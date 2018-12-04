@@ -110,12 +110,12 @@ You can do this interactively using the JShell that comes with Java 10, or you c
 
        <E> void printTreePostorder(final BTNode<E> root) { ... }
 
-   1. print the root node
-   
    1. print the nodes in the left subtree
    
    1. print the nodes in the right subtree
 
+   1. print the root node
+   
    For example, for the tree above, your method should print `4 5 2 8 6 7 3 1`.
   
 1. Finally, define a method for replacing a tree in-place with its mirror image. 
