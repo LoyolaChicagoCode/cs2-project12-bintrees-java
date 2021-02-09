@@ -1,6 +1,6 @@
-# Loyola COMP 271 Lab 10
+# Loyola COMP 271 Lab 11: binary tree explorations
 
-# Individual project
+## Group activity
 
 Collaborate with your teammates but submit individually. 
 Clearly list the members of your team.
