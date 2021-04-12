@@ -25,7 +25,7 @@ You can do this interactively using the JShell that comes with your Java install
 
        jshell -R-ea
 
-   If this does not work, double-check your Java 10 installation.
+   If this does not work, double-check your Java installation.
 
 1. Define this generic binary tree node class:
 
