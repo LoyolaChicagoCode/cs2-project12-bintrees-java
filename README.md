@@ -165,7 +165,6 @@ Please submit the following deliverables:
   - upload your JShell history by dragging it from your desktop into the gist editor
   - choose add file to open another editor and enter your answers there
   - *finally, submit this gist's URL through Sakai*
-  - [GitHub gist documentation](https://help.github.com/articles/creating-gists/)
 
 *5 points TOTAL*
 
@@ -173,3 +172,4 @@ Please submit the following deliverables:
 
 - [JShell overview](https://docs.oracle.com/en/java/javase/11/jshell/)
 - [JShell tutorial](http://cr.openjdk.java.net/~rfield/tutorial/JShellTutorial.html)
+-   - [GitHub gist documentation](https://help.github.com/articles/creating-gists/)
