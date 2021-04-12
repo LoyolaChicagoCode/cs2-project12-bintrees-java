@@ -19,7 +19,7 @@ An understanding of the following concepts and techniques:
 # Instructions
 
 In this lab, you will have the opportunity to look "under the hood" of linked lists by creating and manipulating nodes.
-You can do this interactively using the JShell that comes with Java 10, or you can define a full-fledged Java/Maven project.
+You can do this interactively using the JShell that comes with your Java installation, or you can define a full-fledged IntelliJ IDEA Java project.
 
 1. Start the JShell like so:
 
