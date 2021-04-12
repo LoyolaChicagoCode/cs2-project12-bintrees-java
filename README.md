@@ -1,4 +1,4 @@
-# Loyola COMP 271 Lab 9: binary tree explorations
+# Loyola COMP 271 Lab 11: binary tree explorations
 
 ## Group activity
 
@@ -149,7 +149,7 @@ You can do this interactively using the JShell that comes with your Java install
 
 Please submit the following deliverables:
 
-- Individual Sakai submission under "Lab 9":
+- Individual Sakai submission under "Lab 11":
   - gist with JShell history and written part (see below for details)
   - brief description of your collaboration style and summary of your 
     individual contributions to this team project
