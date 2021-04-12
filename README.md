@@ -172,4 +172,4 @@ Please submit the following deliverables:
 
 - [JShell overview](https://docs.oracle.com/en/java/javase/11/jshell/)
 - [JShell tutorial](http://cr.openjdk.java.net/~rfield/tutorial/JShellTutorial.html)
--   - [GitHub gist documentation](https://help.github.com/articles/creating-gists/)
+- [GitHub gist documentation](https://help.github.com/articles/creating-gists/)
