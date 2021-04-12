@@ -171,5 +171,5 @@ Please submit the following deliverables:
 
 # References
 
-- [JShell overview](https://docs.oracle.com/javase/9/jshell/introduction-jshell.htm)
+- [JShell overview](https://docs.oracle.com/en/java/javase/11/jshell/)
 - [JShell tutorial](http://cr.openjdk.java.net/~rfield/tutorial/JShellTutorial.html)
