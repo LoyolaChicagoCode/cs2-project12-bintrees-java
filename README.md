@@ -150,7 +150,7 @@ You can do this interactively using the JShell that comes with your Java install
 Please submit the following deliverables:
 
 - Individual Sakai submission under "Lab 11":
-  - gist with JShell history and written part (see below for details)
+  - single gist with JShell history and written part as two separate files (see below for details)
   - brief description of your collaboration style and summary of your 
     individual contributions to this team project
 
