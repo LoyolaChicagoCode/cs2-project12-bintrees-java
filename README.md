@@ -33,6 +33,7 @@ You can do this interactively using the JShell that comes with your Java install
          public E data;
          public BTNode<E> left;
          public BTNode<E> right;
+         
          public BTNode(final E data, final BTNode<E> left, final BTNode<E> right) { 
            if (data == null) throw new IllegalArgumentException("data is null");
            this.data = data; 
@@ -40,7 +41,8 @@ You can do this interactively using the JShell that comes with your Java install
            this.right = right;
          }
          public BTNode(final E data) { this(data, null, null); }
-         public String toString() { 
+         
+         @Override public String toString() { 
            final StringBuilder result = new StringBuilder();
            result.append("BTNode@");
            result.append(hashCode());
