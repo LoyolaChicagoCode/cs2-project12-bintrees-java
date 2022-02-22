@@ -156,7 +156,19 @@ Please submit the following deliverables:
   - brief description of your collaboration style and summary of your 
     individual contributions to this team project
 
-# Grading
+# Grading (SP22 - total 3.5 points)
+
+- 2 JShell history (`jshell> /save -history myhistory.jsh`) showing the steps described above (it's OK if errors are included)
+- 1 written part
+  - 0.8 for the five questions
+  - 0.2 grammar and style
+- 0.5 submission of both deliverables as part of a single secret [gist](https://gist.github.com/)
+  - go to http://gist.github.com and create a new gist by clicking the corresponding button in the top right corner
+  - upload your JShell history by dragging it from your desktop into the gist editor
+  - choose add file to open another editor and enter your answers there
+  - *finally, submit this gist's URL through Sakai*
+
+# Grading (total 5 points)
 
 - 3 JShell history (`jshell> /save -history myhistory.jsh`) showing the steps described above (it's OK if errors are included)
 - 1 written part
@@ -167,8 +179,6 @@ Please submit the following deliverables:
   - upload your JShell history by dragging it from your desktop into the gist editor
   - choose add file to open another editor and enter your answers there
   - *finally, submit this gist's URL through Sakai*
-
-*5 points TOTAL*
 
 # References
 
