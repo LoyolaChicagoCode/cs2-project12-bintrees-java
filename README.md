@@ -1,9 +1,8 @@
-# Loyola COMP 271 Lab 11: binary tree explorations
+# Loyola COMP 271 Project 12: binary tree explorations
 
 ## Group activity
 
-Collaborate with your teammates but submit individually. 
-Clearly list the members of your team.
+In this activity, you'll explore binary trees built from interlinked nodes.
 
 # Objectives
 
